@@ -1,6 +1,6 @@
-name: Ubuntu unit tests
-
-on: [push]
+'on':
+  push: null
+  workflow_dispatch: null
 
 jobs:
   build:
